@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 699px;
+    background-color: rgba(235, 255, 205, 0.486);
+    background-image: url(images/background.png);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .type{
+    justify-content: center;
+    margin-top: 121px;
+
+}
+
+header .type h1{
+    font-weight: 700;
+    font-size: 70px;
+    width: 524px;
+    margin-bottom: 20px;
+}
+.type p{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    width: 471px;
+    color: #707070;
+    margin-bottom: 30px;
+}
+
+.primary-btn{
+    padding: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(255, 59, 124);
+    border-radius: 5px;
+}
+
+.primary-btn a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.primary-btn-two{
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.primary-btn-two a{
+    text-decoration: none;
+    color: #707070;
+}
+
+.img{
+    margin-top: 210px;
+    width: 490px;
+
+}
+
+section{
+    margin-top: 133px;
+}
+.donat-list{
+    text-align: center;
+    
+}
+
+.donat-list h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.mather{
+    display: flex;
+    justify-content: center;
+}
+.description{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    
+    /* width: 300px; */
+    text-align: center;
+    
+}
+
+.donat-amount{
+    margin-top: 50px;
+}
+.donat-btn{
+    padding: 44px 25px;
+    border: none;
+    background: #FAFAFA;
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+    border-radius: 5px;
+}
+.set-btn{
+    padding: 44px 25px;
+    border: 5px solid #FF5959;
+    background: #FFEEEE;    
+    font-weight: 700;
+    font-size: 30px;
+    color: #FF5959;
+    border-radius: 5px;
+}
+.amount p{
+    margin: 60px 0px 40px 0px;
+    text-decoration: 2px underline;
+    padding: 0 30px 0 30px;
+    color: #707070;
+}
+.donate-plan{
+    /* text-align: center; */
+    
+}
+.donate-plan h1{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.donate-plan p{
+    margin-bottom: 50px;
+    /* text-align: center; */
+}
+.donat-aitem{
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+
+}
+.donat-for{
+    padding: 70px 188px;
+}
+donat-for{
+    width: 315px;
+    
+}
